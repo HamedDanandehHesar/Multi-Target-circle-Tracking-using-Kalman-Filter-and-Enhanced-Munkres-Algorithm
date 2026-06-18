@@ -278,29 +278,7 @@ input images/
 
 Images are assumed to be ordered numerically by filename.
 
-### 2. Detection file
-A MATLAB file named:
 
-```matlab
-detections.mat
-```
-
-This file should contain:
-
-```matlab
-detections
-```
-
-where:
-
-- `detections{frame}` is an `N × 2` matrix
-- each row corresponds to one detected point:
-
-```matlab
-[x, y]
-```
-
----
 
 ## Output
 
@@ -332,10 +310,8 @@ Place your input frames in the folder:
 input images/
 ```
 
+ 
 ### Step 2
-Prepare `detections.mat` so that it contains the detection points for each frame.
-
-### Step 3
 Run one of the following MATLAB scripts depending on the desired motion model:
 
 #### Velocity model
@@ -348,7 +324,7 @@ Kalman_filter_Multi_tracking_velocity_model_v3
 Kalman_filter_Multi_tracking_accelleration_model_v3
 ```
 
-### Step 4
+### Step 3
 Select:
 
 - the input image folder,
