@@ -392,7 +392,6 @@ This code can be useful in a variety of tracking scenarios, including:
 - MATLAB
 - Computer Vision Toolbox (for functions such as `insertShape`, `insertText`)
 - A MATLAB implementation of the **Munkres/Hungarian algorithm**
-- `detections.mat` containing frame-wise detections
 
 
 ## Acknowledgment
