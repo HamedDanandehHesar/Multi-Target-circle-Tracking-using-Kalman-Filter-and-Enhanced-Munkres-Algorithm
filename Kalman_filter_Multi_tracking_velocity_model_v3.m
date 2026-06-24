@@ -29,7 +29,8 @@ max_track_strikes = 10; % Maximum number of frames without detection before obje
 initial_estimate_covariance = [60, 20, 60,20]; % Initial covariance
 initial_x_dot = 0; % Initial x-velocity
 initial_y_dot = 0; % Initial y-velocity
-sensor_noise = 10; % Sensor noise
+sensor_noise = 16; % Sensor noise ; If you lower this value, you will see wrong data associations!!!!
+
 dt = 1/30; % Time interval
 
 
