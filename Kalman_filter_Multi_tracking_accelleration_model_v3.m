@@ -31,7 +31,7 @@ initial_x_dot = 0; % Initial velocity x
 initial_y_dot = 0; % Initial velocity y
 initial_x_dot_dot = 0; % Initial acceleration x
 initial_y_dot_dot = 0; % Initial acceleration y
-sensor_noise = 10; % Sensor noise
+sensor_noise = 16; % Sensor noise ; If you lower this value, you will see wrong data associations!!!!
 dt = 1/30; % Time interval
 
 
